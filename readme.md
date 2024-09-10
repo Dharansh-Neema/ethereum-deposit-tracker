@@ -26,8 +26,7 @@ To run this project, you need the following installed on your machine:
    ```
 2. **Install dependencies: Make sure you're in the project root directory, then run:**
    `npm install`
-3. **Create a .env file: Create a .env file in the project root and add the following environment**
-4. **Create a .env file: Create a .env file in the project root and add the following environment variables:**
+3. **Create a .env file: Create a .env file in the project root and add the following environment variables:**
 
 ```
 DB_URL=mongodb://127.0.0.1:27017/depositTracker
@@ -37,5 +36,5 @@ TELEGRAM_API_KEY=YOUR_TELEGRAM_BOT_API_KEY
 CHAT_ID=YOUR_TELEGRAM_CHAT_ID
 ```
 
-5. **Run the application: Start the Ethereum deposit tracker with:**
+4. **Run the application: Start the Ethereum deposit tracker with:**
    `node src/index.js`
